@@ -1,0 +1,33 @@
+GET http://localhost:5252/games
+
+###
+
+GET http://localhost:5252/games/4
+
+###
+POST http://localhost:5252/games/
+Content-Type: application/json
+
+{
+  "name": "Pixel Farm Life",
+  "genreId": 5,
+  "price": 19.99,
+  "releaseDate": "2020-04-10"
+}
+###
+PUT http://localhost:5252/games/1
+Content-Type: application/json
+
+{
+  "name": "Counter-Strike: 2",
+  "genreId": 2,
+  "price": 67.99,
+  "releaseDate": "2012-08-21"
+}
+
+###
+DELETE http://localhost:5252/games/4
+
+###
+GET http://localhost:5252/genres
+
