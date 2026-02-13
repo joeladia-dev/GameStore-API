@@ -1,0 +1,43 @@
+# Root .gitignore for GameStore (API + React)
+
+# OS-specific
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor/IDE
+.vscode/
+*.user
+*.suo
+
+# .NET build output
+**/bin/
+**/obj/
+**/.vs/
+
+# Publish/build artifacts
+**/publish/
+**/deploy.zip
+publish-api/
+
+# Local databases and runtime files
+GameStore.Api/GameStore.db
+
+# Secrets (keep connection strings out of Git)
+# Replace with a non-secret sample if needed
+GameStore.Api/appsettings.json
+
+# React/Vite app
+GameStore.React/game-store/node_modules/
+GameStore.React/game-store/dist/
+GameStore.React/game-store/.env
+GameStore.React/game-store/.env.*
+GameStore.React/game-store/.eslintcache
+
+# Archives generated locally
+app.zip

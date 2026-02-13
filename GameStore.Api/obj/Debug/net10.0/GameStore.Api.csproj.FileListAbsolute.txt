@@ -338,3 +338,4 @@ C:\Users\Leoj PC\Desktop\Projects\GameStore\GameStore.Api\obj\Debug\net10.0\refi
 C:\Users\Leoj PC\Desktop\Projects\GameStore\GameStore.Api\obj\Debug\net10.0\GameStore.Api.pdb
 C:\Users\Leoj PC\Desktop\Projects\GameStore\GameStore.Api\obj\Debug\net10.0\GameStore.Api.genruntimeconfig.cache
 C:\Users\Leoj PC\Desktop\Projects\GameStore\GameStore.Api\obj\Debug\net10.0\ref\GameStore.Api.dll
+C:\Users\Leoj PC\Desktop\Projects\GameStore\GameStore.Api\obj\Debug\net10.0\GameStore.Api.sourcelink.json
