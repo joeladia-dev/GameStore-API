@@ -4,7 +4,11 @@ using GameStore.Api.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var provider = builder.Configuration.GetValue<string>("DatabaseProvider") ?? "SqlServer";
+var provider = builder.Configuration.GetValue<string>("DatabaseProvider");
+if (string.IsNullOrWhiteSpace(provider))
+{
+    provider = builder.Environment.IsEnvironment("Testing") ? "Sqlite" : "SqlServer";
+}
 string? connectionString = null;
 
 if (provider.Equals("SqlServer", StringComparison.OrdinalIgnoreCase))
@@ -52,3 +56,5 @@ app.MapGamesEndpoints();
 app.MapGenresEndpoints();
 
 app.Run();
+
+public partial class Program;

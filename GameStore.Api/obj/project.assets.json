@@ -3385,11 +3385,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leoj PC\\Desktop\\Projects\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Leoj PC\\Desktop\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj",
       "projectName": "GameStore.Api",
-      "projectPath": "C:\\Users\\Leoj PC\\Desktop\\Projects\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
+      "projectPath": "C:\\Users\\Leoj PC\\Desktop\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj",
       "packagesPath": "C:\\Users\\Leoj PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leoj PC\\Desktop\\Projects\\GameStore\\GameStore.Api\\obj\\",
+      "outputPath": "C:\\Users\\Leoj PC\\Desktop\\GameStore.Api\\GameStore.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leoj PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
